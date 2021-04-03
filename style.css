@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #F7DCB4;
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  place-items: center;
+}
+
+button {
+  /* display: inline; */
+  width: 200px;
+  margin: 20px 0;
+  place-self: start center;
+
+}
+
+img {
+  margin: 20px;
+  border-radius: 50%;
+  border: 3px solid #A97D5D;
+}
+
+#person {
+  display: grid;
+  place-items: center;
+  height: 50px;
+}
